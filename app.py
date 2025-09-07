@@ -66,7 +66,7 @@ Form_E_file_paths=[os.path.join(Form_E_dir,file_name) for file_name in Form_E_fi
 
 
 #Signing into AWS as client IP for textract
-client=boto3.client('textract',region_name='us-west-2',aws_access_key_id='AKIAVQQQSHWPFNI47KK4',aws_secret_access_key='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')
+client=boto3.client('textract',region_name='us-west-2',aws_access_key_id='My_id',aws_secret_access_key='G/Mykey')
 
 #List File Paths
 paths=[Form_A_file_paths,Form_B_file_paths,Form_C_file_paths,Form_D_file_paths,Form_E_file_paths]
